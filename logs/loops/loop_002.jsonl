@@ -1,0 +1,9 @@
+{"v": "1.2", "ts": "2026-08-17T03:56:23+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "loop_start", "data": {"goal": "賭場 UI: 後悔レース曲線(線形・直ラベル)・台パネル(戦略別推定と真の確率トグル)・ε スライダー・実行制御・配置替え", "spec_refs": ["F-05", "F-06", "F-07", "F-08", "N-03", "N-04", "N-05"], "scaffold_version": "1.8.0", "agent": "claude-code"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:23+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 1, "stage_name": "計画", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:24+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 2, "stage_name": "文脈読込", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:24+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 3, "stage_name": "テスト先行", "result": "skip"}}
+{"v": "1.2", "ts": "2026-08-17T03:58:05+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "test_run", "data": {"command": "npm run verify:fast", "passed": 14, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-17T03:58:05+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:59:47+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "test_run", "data": {"command": "npm run verify (vitest --coverage)", "passed": 14, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-17T03:59:47+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:59:47+09:00", "project": "toba-bandit", "loop_id": "loop_002", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書同期", "result": "pass"}}

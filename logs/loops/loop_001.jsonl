@@ -8,3 +8,5 @@
 {"v": "1.2", "ts": "2026-08-17T03:56:01+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "test_run", "data": {"command": "npm run verify (vitest --coverage)", "passed": 14, "failed": 0}}
 {"v": "1.2", "ts": "2026-08-17T03:56:01+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
 {"v": "1.2", "ts": "2026-08-17T03:56:02+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書同期", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:02+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "commit", "data": {"sha": "a4e918a", "kind": "feat"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:02+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "loop_end", "data": {"outcome": "success", "failure_count": 0, "summary": "バンディットコア完成。数理ゲート全合格。テスト 14 件 green・verify PASS"}}
