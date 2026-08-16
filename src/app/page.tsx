@@ -7,6 +7,7 @@ import { bestArm, makeArms } from "@/core/bandit";
 import type { Speed } from "@/core/schedule";
 import { SPEEDS } from "@/core/schedule";
 import { STRAT_COLORS, STRAT_NAMES } from "@/core/viz";
+import { FOOTER_LINKS } from "@/lib/links";
 import { STRATS, useCasino } from "@/lib/useCasino";
 
 export default function Home() {
@@ -36,6 +37,18 @@ export default function Home() {
         onToggleTruth={() => setShowTruth((v) => !v)}
         onReshuffle={() => setArmsSeed((s) => s + 1)}
       />
+
+      <footer className="footer">
+        {FOOTER_LINKS.map((l, i) => (
+          <span key={l.href}>
+            {i > 0 && " ・ "}
+            <a href={l.href} target="_blank" rel="noreferrer">
+              {l.label}
+            </a>
+            {l.label === "MIT License" && " © 2026 坂田哲朗"}
+          </span>
+        ))}
+      </footer>
     </main>
   );
 }
