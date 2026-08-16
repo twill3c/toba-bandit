@@ -1,0 +1,10 @@
+{"v": "1.2", "ts": "2026-08-17T03:52:50+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "loop_start", "data": {"goal": "バンディットコア: 台生成・ベルヌーイ pull・3 戦略(ε-greedy/UCB1/Thompson=Marsaglia-Tsang)・擬似後悔・数理ゲート G-01〜G-05", "spec_refs": ["F-01", "F-02", "F-03", "F-04", "G-01", "G-02", "G-03", "G-04", "G-05"], "scaffold_version": "1.8.0", "agent": "claude-code"}}
+{"v": "1.2", "ts": "2026-08-17T03:52:50+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 1, "stage_name": "計画", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:52:51+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 2, "stage_name": "文脈読込", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:54:13+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "test_run", "data": {"command": "npx vitest run", "passed": 1, "failed": 4}}
+{"v": "1.2", "ts": "2026-08-17T03:54:13+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 3, "stage_name": "テスト先行", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:55:09+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "test_run", "data": {"command": "npx vitest run", "passed": 14, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-17T03:55:10+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 4, "stage_name": "実装", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:01+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "test_run", "data": {"command": "npm run verify (vitest --coverage)", "passed": 14, "failed": 0}}
+{"v": "1.2", "ts": "2026-08-17T03:56:01+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 5, "stage_name": "検証", "result": "pass"}}
+{"v": "1.2", "ts": "2026-08-17T03:56:02+09:00", "project": "toba-bandit", "loop_id": "loop_001", "event": "stage_end", "data": {"stage": 6, "stage_name": "文書同期", "result": "pass"}}
